@@ -1,0 +1,36 @@
+{
+  "name": "transformation-matrix-js-es",
+  "version": "0.0.2",
+  "description": "2D affine matrix power tools for JavaScript",
+  "main": "dist/cjs/index.js",
+  "module": "dist/es/index.js",
+  "scripts": {
+    "build": "rollup -c rollup.config.mjs"
+  },
+  "author": {
+    "name": "pluto369",
+    "email": "1811783973@qq.com"
+  },
+  "keywords": [
+    "transformation",
+    "matrix",
+    "affine",
+    "2d",
+    "rotate",
+    "translate",
+    "scale",
+    "animate",
+    "animation",
+    "transforms"
+  ],
+  "homepage": "https://github.com/pluto369/transformation-matrix-js#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pluto369/transformation-matrix-js.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "rollup": "^4.1.4"
+  }
+}
